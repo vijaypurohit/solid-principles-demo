@@ -8,7 +8,7 @@ A comprehensive Spring Boot application demonstrating the SOLID principles of ob
 - [SOLID Principles](#solid-principles)
 - [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
-- [Implementation Checklist](#Implementation Checklist)
+- [Implementation Checklist](#implementation-checklist)
 
 ## Overview
 
@@ -91,7 +91,7 @@ src/main/java/com/example/solid_demo/
 
 ### Prerequisites
 
-- Java 21 or higher
+- Java 20 or higher
 - Gradle 8.x (or use the included wrapper)
 
 ## Implementation Checklist
