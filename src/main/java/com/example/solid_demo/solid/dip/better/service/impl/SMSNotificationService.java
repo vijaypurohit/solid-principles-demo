@@ -14,7 +14,7 @@ public class SMSNotificationService implements NotificationService {
   @Override
   public void sendNotification(String recipient, String subject, String message) {
     log.info("Sending SMS notification...");
-    log.info("To: " + recipient);
-    log.info("Message: " + subject + " - " + message);
+    log.info("To: {}", recipient);
+    log.info("Message: {} - {}", subject, message);
   }
 }

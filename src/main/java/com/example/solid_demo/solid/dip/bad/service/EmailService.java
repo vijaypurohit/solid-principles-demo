@@ -13,7 +13,7 @@ public class EmailService {
     public void sendEmail(String to, String subject, String body) {
         // Direct SMTP implementation
         log.info("Sending email via SMTP...");
-        log.info("To: " + to);
-        log.info("Subject: " + subject);
+        log.info("To: {}", to);
+        log.info("Subject: {}", subject);
     }
 }

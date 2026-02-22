@@ -15,7 +15,7 @@ public class SlackNotificationService implements NotificationService {
   @Override
   public void sendNotification(String recipient, String subject, String message) {
     log.info("Sending Slack notification...");
-    log.info("Channel: " + recipient);
-    log.info("Message: " + subject + "\n" + message);
+    log.info("Channel: {}", recipient);
+    log.info("Message: {}\n{}", subject, message);
   }
 }
